@@ -1,11 +1,12 @@
 import Image from "next/image";
 
 export default function Page() {
-  return (<div>
-    <h1>Hello, Next.js!</h1>
-    <Image src="/next.svg" alt="Image" width={100} height={100} />
-    <Image src="/vercel.svg" alt="Image" width={300} height={300} />
-  </div>)
+  return (
+    <div>
+      <h1>Home</h1>
+      <Image src="/next.svg" alt="Image" width={100} height={100} />
+      <Image src="/vercel.svg" alt="Image" width={300} height={300} />
+    </div>)
 }
 
 // export default function Home() {
