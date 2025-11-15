@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <div>
       <h1>Home</h1>
+      <Link href="/learn">Learn</Link>
       <Image src="/next.svg" alt="Image" width={100} height={100} />
       <Image src="/vercel.svg" alt="Image" width={300} height={300} />
     </div>)
